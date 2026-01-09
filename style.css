@@ -149,13 +149,15 @@ nav .menu a {
  padding: 60px;
 
 }
+
+
 .brain-section-content *{
     margin-bottom: 20px;
    
   
 }
 .brain-section-content h4{
-    color: #30B868;
+color: #30B868;
    
 font-size: 17px;
 font-weight: 500;
@@ -169,7 +171,23 @@ font-weight: 500;
     color: #627382;
     line-height: 15px;
     font-size: 16px;
+    margin-bottom: 40px;
+   }
+
+.brain-section-content ul{
+ list-style: none;
+
+
 }
+.brain-section-content ul li i{
+ color: #30B868;
+
+}
+
+
+
+/* ------------------------------------- */
+
 .early-access-section{
    text-align: center;
 background: #f7f6f2;
@@ -229,7 +247,7 @@ hr {
     border: none;               
     border-top: 1px solid rgba(255, 255, 255, 0.466); 
 }
-p{
+footer p{
     color: #fff;
     padding: 30px;
     text-align: center;
