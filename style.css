@@ -307,6 +307,9 @@ footer {
 hr {
     border: none;
     border-top: 1px solid rgba(255, 255, 255, 0.466);
+    width: 80%;
+    max-width: 1340px;
+    margin: 0 auto;
 }
 
 footer p {
