@@ -1,15 +1,14 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Inter", sans-serif;
 }
-body{
-        
-}
+
+body {}
 
 .btn {
-    background-color: #30B868;;
+    background-color: green;
     border: none;
     border-radius: 5px;
     padding: 12px 16px;
@@ -17,9 +16,14 @@ body{
     font-size: 16px;
     font-weight: bold;
     cursor: pointer;
-} 
+}
+.btn:hover{
+    background-color: #069e46;
+}
 
-#notes-section, #brain-section, #early-access{
+#notes-section,
+#brain-section,
+#early-access {
     width: 80%;
     max-width: 1340px;
     margin: 0 auto;
@@ -38,31 +42,33 @@ nav {
     /* border: 1px solid red; */
     padding: 15px 0;
 }
+
 nav .menu {
     display: flex;
     list-style: none;
     gap: 50px;
-    align-items: center;    
+    align-items: center;
 }
-
 
 nav .menu a {
     text-decoration: none;
     color: #000;
 }
-#hero{
+
+#hero {
     background-image: url(images/hero-bg.png);
 }
-.hero-content{
-    width: 80%
-    max-width: 1340px;
+
+.hero-content {
+    width: 80% max-width: 1340px;
     margin: 0 auto;
     text-align: center;
     padding: 154px 0;
 }
-.hero-content .btn1{
+
+.hero-content .btn1 {
     margin: 10px auto;
-    
+
     display: flex;
     color: #30B868;
     padding: 12px 16px;
@@ -71,149 +77,179 @@ nav .menu a {
     align-items: center;
     gap: 5px;
     border: none;
-   
-    
+
+
 }
-.hero-content h1{
+
+.hero-content h1 {
     font-size: 70px;
     font-weight: bold;
     color: #fff;
     margin-bottom: 10px;
 }
-.hero-content h1 span{
-    color: #30B868;
+
+.hero-content h1 span {
+    color: green;
 }
-.hero-content p{
+
+.hero-content p {
     color: #fff;
     margin-bottom: 30px;
 }
-.hero-content .new-btn{
-    border: 1px solid #30B868;
+
+.hero-content .new-btn {
+    border: 1px solid green;
     background: none;
     margin-left: 15px;
 }
+
 /* ------------------------------------ */
 /* notes section */
 /* ------------------------------------ */
+
 .notes-container {
-   
+
     /* border: 1px solid red; */
     text-align: center;
     padding: 50px 0;
 }
-.section-title{
+
+.section-title {
     margin-bottom: 30px;
 }
-.notes-container h2{
+
+.notes-container h2 {
     font-size: 35px;
     margin-bottom: 10px;
 }
-.notes-container .section-title p{
- margin-bottom: 20px;
+
+.notes-container .section-title p {
+    margin-bottom: 20px;
 }
-.card-box{
-   
+
+.card-box {
+
     display: flex;
     justify-content: space-between;
     padding: 30px 0;
     gap: 16px;
 }
-.card-box *{
+
+.card-box * {
     margin-bottom: 10px;
 }
-.card-box img{
-    background-color: #f95555;;
+
+.card-box img {
+    background-color: #f95555;
+    ;
     border-radius: 50%;
     padding: 15px;
 }
-.card{
+
+.card {
     width: 300px;
     border-radius: 5px;
     box-shadow: 0 8px 16px #00000027;
     padding: 50px 16px;
 }
+
 /* ------------------------------------------ */
 /* brain section  */
 /* ------------------------------------------ */
-.brain-section-container{
+
+.brain-section-container {
     display: flex;
     justify-content: space-between;
     gap: 50px;
     align-items: center;
     margin-bottom: 120px;
 }
-.brain-section .img{
+
+.brain-section .img {
     border-radius: 5px;
 }
-.brain-section-content{
- padding: 60px;
+
+.brain-section-content {
+    padding: 60px;
 
 }
 
 
-.brain-section-content *{
+.brain-section-content * {
     margin-bottom: 20px;
-   
-  
-}
-.brain-section-content h4{
-color: #30B868;
-   
-font-size: 17px;
-font-weight: 500;
+
 
 }
-.brain-section-content H2{
+
+.brain-section-content h4 {
+    color: #30B868;
+
+    font-size: 17px;
+    font-weight: 500;
+
+}
+
+.brain-section-content H2 {
     font-size: 45px;
     font-weight: bold;
 }
-.brain-section-content p{
+
+.brain-section-content p {
     color: #627382;
     line-height: 15px;
     font-size: 16px;
     margin-bottom: 40px;
-   }
+}
 
-.brain-section-content ul{
- list-style: none;
+.brain-section-content ul {
+    list-style: none;
 
 
 }
-.brain-section-content ul li i{
- color: #30B868;
+
+.brain-section-content ul li i {
+    color: green;
 
 }
 
 
 
 /* ------------------------------------- */
+/* early section made  */
+/* ----------------------------------- */
 
-.early-access-section{
-   text-align: center;
-background: #f7f6f2;
+.early-access-section {
+    text-align: center;
+    background: #f7f6f2;
     padding: 80px 40px;
     border-radius: 5px;
     margin-bottom: 120px;
 }
-.early-access-section *{
+
+.early-access-section * {
     margin-bottom: 15px;
 }
-.early-access-section h2{
+
+.early-access-section h2 {
     font-size: 35px;
 }
-.early-access-section p{
+
+.early-access-section p {
     color: #627382;
 }
-.early-access-section .btn{
+
+.early-access-section .btn {
     font-weight: 500;
 }
+
 /* ----------------------------------- */
 /* footer  */
 /* ----------------------------------- */
-footer{
+footer {
     background-color: #001931;
 }
-.footer-container{
+
+.footer-container {
     width: 80%;
     max-width: 1340px;
     margin: 0 auto;
@@ -221,33 +257,39 @@ footer{
     justify-content: space-between;
     padding: 80px 0;
 }
+
 .footer-container {
- display: flex;
+    display: flex;
 }
-.social-content h5{
+
+.social-content h5 {
     font-size: 20px;
     color: #fff;
     font-weight: normal;
 }
-.social-content ul{
+
+.social-content ul {
     margin-top: 15px;
     display: flex;
     gap: 20px;
 
 }
-.social-content ul li{
+
+.social-content ul li {
     list-style: none;
     font-size: 20px;
     background: rgb(255, 255, 255);
     border-radius: 50%;
     padding: 5px;
-    /* color: #30B868; */
+   
 }
+
 hr {
-    border: none;               
-    border-top: 1px solid rgba(255, 255, 255, 0.466); 
+    border: none;
+    border-top: 1px solid rgba(255, 255, 255, 0.466);
 }
-footer p{
+
+footer p {
     color: #fff;
     padding: 30px;
     text-align: center;
