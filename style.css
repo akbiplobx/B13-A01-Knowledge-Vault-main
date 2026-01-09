@@ -228,22 +228,28 @@ nav .menu a {
     margin-bottom: 120px;
 }
 
-.early-access-section * {
-    margin-bottom: 15px;
-}
+
 
 .early-access-section h2 {
     font-size: 35px;
+     margin-bottom: 15px;
 }
 
 .early-access-section p {
     color: #627382;
+     margin-bottom: 15px;
 }
 
-.early-access-section .btn {
-    font-weight: 500;
-}
+.early-access-section .btn3 {
+    background: #30B868;
+    margin-bottom: 0;
+     margin-bottom: 15px;
 
+     
+}
+.btn3:hover{
+       background: #069e46; 
+     }
 /* ----------------------------------- */
 /* footer  */
 /* ----------------------------------- */
