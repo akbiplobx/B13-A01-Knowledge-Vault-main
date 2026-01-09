@@ -83,6 +83,10 @@ nav .menu a {
 }
 .hero-content p{
     color: #fff;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
 }
-
+.hero-content .new-btn{
+    border: 1px solid #30B868;
+    background: none;
+    margin-left: 15px;
+}
