@@ -283,7 +283,11 @@ footer {
     background: rgb(255, 255, 255);
     border-radius: 50%;
     padding: 5px;
-   
+    cursor: pointer;
+}
+.social-content ul li:hover{
+    background: #fae7e7;
+    
 }
 
 hr {
