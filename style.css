@@ -19,8 +19,8 @@ body{
     cursor: pointer;
 } 
 
-#notes-section{
- width: 80%;
+#notes-section, #brain-section, #early-access{
+    width: 80%;
     max-width: 1340px;
     margin: 0 auto;
 }
@@ -133,3 +133,104 @@ nav .menu a {
     padding: 50px 16px;
 }
 /* ------------------------------------------ */
+/* brain section  */
+/* ------------------------------------------ */
+.brain-section-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    align-items: center;
+    margin-bottom: 120px;
+}
+.brain-section .img{
+    border-radius: 5px;
+}
+.brain-section-content{
+ padding: 60px;
+
+}
+.brain-section-content *{
+    margin-bottom: 20px;
+   
+  
+}
+.brain-section-content h4{
+    color: #30B868;
+   
+font-size: 17px;
+font-weight: 500;
+
+}
+.brain-section-content H2{
+    font-size: 45px;
+    font-weight: bold;
+}
+.brain-section-content p{
+    color: #627382;
+    line-height: 15px;
+    font-size: 16px;
+}
+.early-access-section{
+   text-align: center;
+background: #f7f6f2;
+    padding: 80px 40px;
+    border-radius: 5px;
+    margin-bottom: 120px;
+}
+.early-access-section *{
+    margin-bottom: 15px;
+}
+.early-access-section h2{
+    font-size: 35px;
+}
+.early-access-section p{
+    color: #627382;
+}
+.early-access-section .btn{
+    font-weight: 500;
+}
+/* ----------------------------------- */
+/* footer  */
+/* ----------------------------------- */
+footer{
+    background-color: #001931;
+}
+.footer-container{
+    width: 80%;
+    max-width: 1340px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 0;
+}
+.footer-container {
+ display: flex;
+}
+.social-content h5{
+    font-size: 20px;
+    color: #fff;
+    font-weight: normal;
+}
+.social-content ul{
+    margin-top: 15px;
+    display: flex;
+    gap: 20px;
+
+}
+.social-content ul li{
+    list-style: none;
+    font-size: 20px;
+    background: rgb(255, 255, 255);
+    border-radius: 50%;
+    padding: 5px;
+    /* color: #30B868; */
+}
+hr {
+    border: none;               
+    border-top: 1px solid rgba(255, 255, 255, 0.466); 
+}
+p{
+    color: #fff;
+    padding: 30px;
+    text-align: center;
+}
