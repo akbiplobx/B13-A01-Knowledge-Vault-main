@@ -182,14 +182,13 @@ nav .menu a {
 }
 
 .brain-section-content h4 {
-    color: #30B868;
-
+    color: green;
     font-size: 17px;
     font-weight: 500;
 
 }
 
-.brain-section-content H2 {
+.brain-section-content h2 {
     font-size: 45px;
     font-weight: bold;
 }
